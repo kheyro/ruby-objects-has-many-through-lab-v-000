@@ -15,4 +15,5 @@ class Patient
     @appointments.each do |appointment|
       appointment.doctor
     end
+  end
 end
