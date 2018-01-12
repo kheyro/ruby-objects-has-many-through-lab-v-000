@@ -14,7 +14,7 @@ class Patient
   def doctor
     @doctor
   end
-  
+
   def doctors
     @appointments.each do |appointment|
       appointment.doctor
