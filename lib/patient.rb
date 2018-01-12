@@ -10,4 +10,9 @@ class Patient
     @appointments << appointment
     appointment.patient = self
   end
+
+  def doctors
+    @appointments.each do |appointment|
+      appointment.doctor
+    end
 end
